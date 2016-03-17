@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "City.h"
+#import "CityViewController.h"
 
 @interface LHWAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) City *city;
+@property (strong, nonatomic) CityViewController *cityViewController;
 
 @end
